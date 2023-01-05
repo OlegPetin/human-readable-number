@@ -15,6 +15,7 @@ it('Should return \'one\' when 1 given', () => {
   assert.equal(readable, 'one');
 });
 
+
 it('Should return \'two\' when 2 given', () => {
   const readable = toReadable(2);
 
